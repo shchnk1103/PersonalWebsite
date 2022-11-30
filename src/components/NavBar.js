@@ -38,6 +38,7 @@ export const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
+          {/*Nav Link*/}
           <Nav className="me-auto">
             <Nav.Link
               href="#home"
@@ -67,6 +68,7 @@ export const NavBar = () => {
               Projects
             </Nav.Link>
           </Nav>
+          {/*social-icon*/}
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.google.com">

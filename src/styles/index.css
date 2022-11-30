@@ -100,7 +100,7 @@ nav.navbar {
   transition: 0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 0 0;
   background-color: #121212;
 }
 nav.navbar .navbar-toggler:active,
@@ -221,7 +221,7 @@ span.navbar-text {
 }
 .navbar-text button::before {
   content: "";
-  width: 0%;
+  width: 0;
   height: 100%;
   position: absolute;
   background-color: #fff;
@@ -359,7 +359,7 @@ span.navbar-text {
   background-color: black;
 }
 .project h2 {
-  font-size: 18px;
+  font-size: 45px;
   font-weight: 700;
   text-align: center;
 }
